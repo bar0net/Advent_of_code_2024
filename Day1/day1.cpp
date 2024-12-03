@@ -1,9 +1,11 @@
+#pragma once
+
 #include <iostream>
 #include <cstdlib>
 #include <queue>
 #include <vector>
 
-#include "utils.h"
+#include "../_utils/utils.h"
 
 #define STD_MIN_HEAP std::priority_queue<int, std::vector<int>, std::greater<int>>
 

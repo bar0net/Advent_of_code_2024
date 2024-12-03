@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{44DE3C1C-305F-4EB8-A524-87217E7C4787}</ProjectGuid>
-    <RootNamespace>Adventofcode2024</RootNamespace>
+    <ProjectGuid>{FF7792B2-8807-4C3B-9DEF-298C06B5F8A9}</ProjectGuid>
+    <RootNamespace>Day2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,15 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="day1.cpp" />
-    <ClCompile Include="day2.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="utils.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="day1.txt" />
     <Text Include="day2.txt" />
+    <Text Include="day2_test.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="day2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
